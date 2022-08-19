@@ -18,54 +18,77 @@
 
     <header>
       <nav>
-        <a href="" lang="en"> Web<span>Studio</span> </a>
-        <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <a class="logo link" href="./index.html" lang="en">
+          Web<span class="logo-color-header">Studio</span>
+        </a>
+        <ul class="list">
+          <li>
+            <a class="link navigation-menu" href="./index.html">Студія</a>
+          </li>
+          <li>
+            <a class="link navigation-menu" href="./portfolio.html"
+              >Портфоліо</a
+            >
+          </li>
+          <li><a class="link navigation-menu" href="">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="list">
+        <li>
+          <a
+            class="link navigation-menu contacts-address"
+            href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a
+            class="link navigation-menu contacts-address"
+            href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
+
+    <!-- ======== MAIN ======== -->
+
     <main>
       <!-- ======== HERO ======== -->
 
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+      <section class="hero-background">
+        <h1 class="hero">Ефективні рішення для вашого бізнесу</h1>
+        <button class="hero-button" type="button">Замовити послугу</button>
       </section>
 
       <!-- ======== OUR ADVANTAGES ======== -->
 
       <section>
         <h2>Наші переваги</h2>
-        <ul>
+        <ul class="list">
           <li>
-            <h3>Увага до деталей</h3>
-            <p>
+            <h3 class="advantages">Увага до деталей</h3>
+            <p class="advantages-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3>Пунктуальність</h3>
-            <p>
+            <h3 class="advantages">Пунктуальність</h3>
+            <p class="advantages-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3>Планування</h3>
-            <p>
+            <h3 class="advantages">Планування</h3>
+            <p class="advantages-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>Сучасні технології</h3>
-            <p>
+            <h3 class="advantages">Сучасні технології</h3>
+            <p class="advantages-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -76,8 +99,8 @@
       <!-- ======== WHAT DO WE DO ======== -->
 
       <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
+        <h2 class="main-heading">Чим ми займаємося</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/img-1.jpg"
@@ -107,9 +130,9 @@
 
       <!-- ======== OUR TEAM ======== -->
 
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="background-team">
+        <h2 class="main-heading">Наша команда</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/photo-1.jpg"
@@ -117,8 +140,8 @@
               width="270"
               height="260"
             />
-            <h3>Ігор Дем'яненко</h3>
-            <p lang="en">Product Designer</p>
+            <h3 class="name-expert">Ігор Дем'яненко</h3>
+            <p class="profession" lang="en">Product Designer</p>
           </li>
           <li>
             <img
@@ -127,8 +150,8 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Рєпіна</h3>
-            <p lang="en">Frontend Developer</p>
+            <h3 class="name-expert">Ольга Рєпіна</h3>
+            <p class="profession" lang="en">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -137,8 +160,8 @@
               width="270"
               height="260"
             />
-            <h3>Микола Тарасов</h3>
-            <p lang="en">Marketing</p>
+            <h3 class="name-expert">Микола Тарасов</h3>
+            <p class="profession" lang="en">Marketing</p>
           </li>
           <li>
             <img
@@ -147,22 +170,34 @@
               width="270"
               height="260"
             />
-            <h3>Михайло Єрмаков</h3>
-            <p lang="en">UI Designer</p>
+            <h3 class="name-expert">Михайло Єрмаков</h3>
+            <p class="profession" lang="en">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <!-- ======== FOOTER======== -->
+    <!-- ======== FOOTER ======== -->
 
-    <footer>
-      <a href="" lang="en"> Web<span>Studio</span> </a>
-      <address>
+    <footer class="footer-background">
+      <a class="logo link" href="./index.html" lang="en">
+        Web<span class="logo-color-footer">Studio</span>
+      </a>
+      <address class="footer-address">
         <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="list">
+          <li>
+            <a
+              class="link footer-address-color"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link footer-address-color" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
