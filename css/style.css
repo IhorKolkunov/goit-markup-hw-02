@@ -39,6 +39,9 @@ body {
     letter-spacing: 0.02em;
     color: inherit;
 }
+.navigation-menu-active {
+    color: var(--secondary-color)
+}
 .navigation-menu:hover,
 .navigation-menu:focus {
     color: var(--secondary-color);
@@ -65,8 +68,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
-    letter-spacing: 0.06em;
+     letter-spacing: 0.06em;
     color: var(--revers-color);
     background-color: var(--secondary-color);
 }
@@ -124,6 +126,7 @@ body {
 }
 
 .footer-address {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -138,3 +141,34 @@ body {
 }
 
 /* ======================= PORTFOLIO ============================ */
+
+.portfolio-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color: #F5F4FA;;
+    cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--revers-color);
+    background-color: #2196F3;
+}
+.portfolio-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+.portfolio-desc {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+
